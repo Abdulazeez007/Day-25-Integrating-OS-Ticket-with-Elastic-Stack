@@ -97,6 +97,8 @@ Before testing the integration, update the OS Ticket server’s IP address confi
    - Choose **Internet Protocol Version 4 (TCP/IPv4)** and select the option to manually enter an IP address.
    - Input the private IP address for your OS Ticket server (you can find it in Vultr under **Settings > VPC 2.0**).
    - Click **OK** and **Apply**.
+  
+     ![Alt text](https://raw.githubusercontent.com/Virus192/Day-25-Integrating-OS-Ticket-with-Elastic-Stack/refs/heads/main/Images/photo_6030733055884378792_w.jpg)
 
 ## Step 4: Test the Integration
 
