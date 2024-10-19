@@ -80,6 +80,8 @@ Elastic will then prompt you to create an action and define the body of the requ
     </attachments>
     <ip>123.211.233.122</ip>
 </ticket>
+```
+
 ## Step 3: Update OS Ticket Network Settings
 
 Before testing the integration, update the OS Ticket server’s IP address configuration:
