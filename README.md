@@ -37,6 +37,8 @@ In this guide, I’ll walk you through how I successfully integrated OS Ticket w
 3. **Activate the 30-Day Trial:**
    - Go to **Manage License** and select **Start a 30-Day Trial**.
    - Once the trial is active, you’ll have access to third-party integrations, including API connectors.
+  
+     ![Alt text](https://raw.githubusercontent.com/Virus192/Day-25-Integrating-OS-Ticket-with-Elastic-Stack/refs/heads/main/Images/photo_6030733055884378799_w.jpg)
 
 4. **Create a Webhook Connector:**
    - Click on **Create Connector**.
@@ -101,11 +103,15 @@ Before testing the integration, update the OS Ticket server’s IP address confi
 1. **Run a Test in Elastic:**
    - Go back to Elastic, and click **Run Test**.
    - If successful, the test will generate a ticket in OS Ticket.
+  
+     ![Alt text](https://raw.githubusercontent.com/Virus192/Day-25-Integrating-OS-Ticket-with-Elastic-Stack/refs/heads/main/Images/photo_6030733055884378809_w.jpg)
+
 
 2. **Verify in OS Ticket:**
    - Log into your OS Ticket Admin Panel and check the ticketing section.
-   - You should see a new ticket titled **Pheonix-30DayChallenge-Pheonixrocks** (or the subject name you provided).
+   - You should see a new ticket titled **MYDFIR-OSTicket** (or the subject name you provided).
 
+     ![Alt text](https://raw.githubusercontent.com/Virus192/Day-25-Integrating-OS-Ticket-with-Elastic-Stack/refs/heads/main/Images/photo_6030733055884378790_w.jpg)
 ---
 
 Congratulations! You’ve successfully integrated OS Ticket with Elastic. This allows you to automatically generate tickets from Elastic alerts, improving your auditing and incident tracking.
